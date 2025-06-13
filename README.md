@@ -43,5 +43,5 @@ A 2D side-scrolling fighting game developed using **LibGDX** and **Java**. This 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/platformer-fighting-game.git
+git clone https://github.com/MedAmin1400/2D-platformer-fighting-game.git
 cd platformer-fighting-game
