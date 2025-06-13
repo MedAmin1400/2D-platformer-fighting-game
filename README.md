@@ -1,33 +1,47 @@
-# 2DPlatformer
+# 2D Platformer Fighting Game
 
-A [libGDX](https://libgdx.com/) project generated with [gdx-liftoff](https://github.com/libgdx/gdx-liftoff).
+A 2D side-scrolling fighting game developed using **LibGDX** and **Java**. This game features two animated characters with health bars, basic physics, attack mechanics, and a pause menu system.
 
-This project was generated with a template including simple application launchers and an empty `ApplicationListener` implementation.
+---
 
-## Platforms
+## 🎮 Features
 
-- `core`: Main module with the application logic shared by all platforms.
-- `lwjgl3`: Primary desktop platform using LWJGL3; was called 'desktop' in older docs.
+- 🔁 Two-player combat with real-time collision and health deduction.
+- 🥊 Attack animations and hit detection logic.
+- ⏸️ Pause screen with semi-transparent background and resume button.
+- 🧱 Platform physics with jumping, gravity, and floor collision.
+- 💡 Scalable UI: responsive health bars, HD fonts, and dynamic scaling on window resize.
+- 🎨 Custom main menu and game-over screens.
+- 🖱️ Input support for keyboard and mouse (including fullscreen handling).
 
-## Gradle
+---
 
-This project uses [Gradle](https://gradle.org/) to manage dependencies.
-The Gradle wrapper was included, so you can run Gradle tasks using `gradlew.bat` or `./gradlew` commands.
-Useful Gradle tasks and flags:
+## 📸 Screenshots
 
-- `--continue`: when using this flag, errors will not stop the tasks from running.
-- `--daemon`: thanks to this flag, Gradle daemon will be used to run chosen tasks.
-- `--offline`: when using this flag, cached dependency archives will be used.
-- `--refresh-dependencies`: this flag forces validation of all dependencies. Useful for snapshot versions.
-- `build`: builds sources and archives of every project.
-- `cleanEclipse`: removes Eclipse project data.
-- `cleanIdea`: removes IntelliJ project data.
-- `clean`: removes `build` folders, which store compiled classes and built archives.
-- `eclipse`: generates Eclipse project data.
-- `idea`: generates IntelliJ project data.
-- `lwjgl3:jar`: builds application's runnable jar, which can be found at `lwjgl3/build/libs`.
-- `lwjgl3:run`: starts the application.
-- `test`: runs unit tests (if any).
+*(Include screenshots here once available)*
 
-Note that most tasks that are not specific to a single project can be run with `name:` prefix, where the `name` should be replaced with the ID of a specific project.
-For example, `core:clean` removes `build` folder only from the `core` project.
+---
+
+## 🛠️ Technologies Used
+
+- [LibGDX](https://libgdx.com/) - Game development framework.
+- Java - Core programming language.
+- TextureAtlas & BitmapFont for optimized rendering and text display.
+
+---
+
+## 🔧 Setup Instructions
+
+### Prerequisites
+
+- Java JDK 8+
+- Gradle
+- IntelliJ IDEA or Eclipse (recommended for LibGDX)
+
+### Running the Game
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/platformer-fighting-game.git
+cd platformer-fighting-game
