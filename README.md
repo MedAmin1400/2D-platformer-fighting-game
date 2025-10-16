@@ -14,14 +14,6 @@ A 2D side-scrolling fighting game developed using **LibGDX** and **Java**. This 
 - 🎨 Custom main menu and game-over screens.
 - 🖱️ Input support for keyboard and mouse (including fullscreen handling).
 
----
-
-## 📸 Screenshots
-
-*(Include screenshots here once available)*
-
----
-
 ## 🛠️ Technologies Used
 
 - [LibGDX](https://libgdx.com/) - Game development framework.
